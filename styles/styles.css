@@ -49,7 +49,11 @@ a {
   background-repeat: no-repeat;
   margin: 0 auto;
   width: 1600px;
-  height: 2926px;
+  height: 674px;
+  padding: 70px 120px 134px 120px;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
 #hero div{
   text-align: center;
@@ -98,4 +102,48 @@ a {
 }
 #trans-btn:hover{
   background-color:green;
+}
+.text-section{
+  text-align: center;
+}
+.text-section div h2{
+  font-size: 48px ;
+}
+.text-section div p{
+  font-size: 16px;
+  color:  #627382;
+}
+.card img{
+  height: 32px;
+  width: 32px;
+  background-color: #f95555;
+  margin: 16px auto;
+  padding: 6px;
+  border-radius: 45px;
+}
+.card-section{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.card{
+  text-align: center;
+  padding-top: 2px;
+
+  display: flex;
+  padding: 24px 24px 24px 24px;
+  height: 322px;
+  width: 300px;
+  background-color: #FFFFFF; 
+  border-radius: 12px;
+  margin: 16px;
+  flex-direction: column;
+  box-shadow: 0 4px 15px  rgba(16, 16, 16, 0.253)
+}
+.card h5{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.card p{
+  font-size: 16px;
 }
