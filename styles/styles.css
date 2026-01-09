@@ -2,6 +2,10 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+* {margin: 0;
+  padding: 0;
+ box-sizing : border-box  ;
+}
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -43,17 +47,15 @@ a {
   background-color: green;
 }
 #hero{
-  
-  
   background-image: url(../assets/hero-bg.png);
   background-repeat: no-repeat;
   margin: 0 auto;
   width: 1600px;
   height: 674px;
   padding: 70px 120px 134px 120px;
-  gap: 40px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+
 }
 #hero div{
   text-align: center;
@@ -105,6 +107,8 @@ a {
 }
 .text-section{
   text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 .text-section div h2{
   font-size: 48px ;
@@ -146,4 +150,42 @@ a {
 }
 .card p{
   font-size: 16px;
+}
+.idea{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 200px;
+}
+.idea-img{
+  height: 600px;
+  weight: 600px;
+}
+.idea-text{
+  margin-top: 100px;
+  text-align: left;
+}
+.idea-text h4 {
+ font-size: 16px;
+ color: #469165;
+ margin-bottom: 16px;
+}
+.idea-text h1{
+  font-size: 48px;
+  margin-bottom:16px ;
+}
+.idea-text h5{
+  font-size: 16px;
+  font-weight: normal;
+  color: #627382;
+  margin-bottom: 16px;
+}
+.idea-text {
+  margin-bottom: 6px;
+}
+.CheckCircle img{
+  vertical-align: middle;
+}
+.CheckCircle{
+  margin-bottom: 6px;
 }
