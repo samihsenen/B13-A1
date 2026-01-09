@@ -189,3 +189,41 @@ a {
 .CheckCircle{
   margin-bottom: 6px;
 }
+.clng-sec{
+  justify-content: center;
+  display: flex;
+  margin-top: 100px;
+  padding: 80px 40px 80px 40px;
+  background-color:  #F7F6F2;
+  margin-left: 13.3%;
+  margin-right: 13.3%;
+  text-align: center;
+}
+.clng-sec div h3{
+  font-size: 40px;
+  font-weight: 700;
+}
+.clng-sec div h6 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  color:#627382;
+}
+.clng-sec div button{
+  background-color: #469165;
+  color:#FFFFFF;
+  padding: 12px 16px 12px 16px;
+  border: none;
+  border-radius:4px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+.clng-sec div button:hover{
+  background-color: green;
+}
+.clng-sec div p {
+  color: #627382;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
